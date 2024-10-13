@@ -1,6 +1,6 @@
 # Energy Demand Prediction Using Machine Learning
 
-This repository contains the code and resources for predicting energy demand at a national level using advanced machine learning models. The project evaluates multiple algorithms—CatBoost, FB Prophet, and Neural Prophet—for their accuracy and adaptability in forecasting energy consumption, focusing on the Tetouan city dataset.
+This repository contains the code and resources for predicting energy demand at a national level using advanced machine-learning models. The project evaluates multiple algorithms—CatBoost, FB Prophet, and Neural Prophet—for their accuracy and adaptability in forecasting energy consumption, focusing on the Tetouan city dataset.
 
 ## Project Overview
 
@@ -35,4 +35,24 @@ This project explores the limitations of traditional energy forecasting models a
 2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
+
+3. **Preprocess the data: Run the preprocessing script to handle missing values and scale the data**:
+   ```bash
+   python scripts/preprocess_data.py
+4. **Train the models: Run individual scripts to train CatBoost, FB Prophet, and Neural Prophet models.**:
+   ```bash
+   python models/train_catboost.py
+   python models/train_fbprophet.py
+   python models/train_neuralprophet.py
+5.**Evaluate and visualize results: After training, the models can be evaluated based on RMSE, MAE, and MAPE. Visualizations of actual vs. predicted energy demand are generated.**:
+```bash
+   python scripts/evaluate_models.py
+
+## Results
+Each model's performance is evaluated using the test dataset. Final results are stored in the Results directory, showing how each model performs in terms of accuracy and reliability.
+
+Future Work
+Potential improvements include expanding the dataset, integrating ensemble models, and exploring additional feature engineering techniques to enhance model accuracy.
+
+
 
