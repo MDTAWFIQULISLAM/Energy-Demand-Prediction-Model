@@ -28,7 +28,7 @@ This project explores the limitations of traditional energy forecasting models a
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/energy-demand-prediction.git
+   git clone https://github.com/mdtawfiqulislam/energy-demand-prediction.git
    cd energy-demand-prediction
 
 
