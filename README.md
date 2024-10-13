@@ -47,12 +47,3 @@ This project explores the limitations of traditional energy forecasting models a
 5.**Evaluate and visualize results: After training, the models can be evaluated based on RMSE, MAE, and MAPE. Visualizations of actual vs. predicted energy demand are generated.**:
 ```bash
     python scripts/evaluate_models.py
-
-
-
-
-
-
-
-
-
