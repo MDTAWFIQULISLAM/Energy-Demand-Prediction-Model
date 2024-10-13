@@ -46,13 +46,13 @@ This project explores the limitations of traditional energy forecasting models a
    python models/train_neuralprophet.py
 5.**Evaluate and visualize results: After training, the models can be evaluated based on RMSE, MAE, and MAPE. Visualizations of actual vs. predicted energy demand are generated.**:
 ```bash
-   python scripts/evaluate_models.py
+    python scripts/evaluate_models.py
 
-## Results
-Each model's performance is evaluated using the test dataset. Final results are stored in the Results directory, showing how each model performs in terms of accuracy and reliability.
 
-Future Work
-Potential improvements include expanding the dataset, integrating ensemble models, and exploring additional feature engineering techniques to enhance model accuracy.
+
+
+
+
 
 
 
