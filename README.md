@@ -30,3 +30,9 @@ This project explores the limitations of traditional energy forecasting models a
    ```bash
    git clone https://github.com/yourusername/energy-demand-prediction.git
    cd energy-demand-prediction
+
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
